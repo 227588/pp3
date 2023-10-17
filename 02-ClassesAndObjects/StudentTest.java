@@ -41,14 +41,5 @@ public class StudentTest {
         s2.changeValid();;
 
         s1.displayInfo();
-        s1.displayStudentIdCardValid();
-        s2.displayInfo();
-        s2.displayStudentIdCardValid();
-        
-        
-
-    
-
-        
     }
 }

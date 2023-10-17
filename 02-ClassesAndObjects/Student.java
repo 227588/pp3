@@ -11,7 +11,6 @@ public class Student {
     }
     void displayName(){
         System.out.println("Name:  "+name+"\n");
-
     }
     void displayAge(){
         System.out.println("Age: "+age+"\n");
@@ -23,7 +22,7 @@ public class Student {
         studentIdCardValid = !studentIdCardValid;
     }
     void displayStudentIdCardValid(){
-        String valid = (studentIdCardValid == true) ? "Card is valid" : "Card is invalid";
+        String valid = (studentIdCardValid) ? "Card is valid" : "Card is invalid";
         System.out.println(valid+"\n");
     }
 }
